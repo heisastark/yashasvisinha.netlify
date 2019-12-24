@@ -1,8 +1,8 @@
 .site-header {
-  background-color: #1bbc9b;
+  background-color: #040d3c;
   color: #ecfdf9;
   height: 100vh;
-  font-family: monospace;
+  font-family: Calibri;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .hyper-link {
-  color: black;
+  color: yellow;
 }
 
 body {
