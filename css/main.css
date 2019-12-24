@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.header-align-centre {
+  text-align: center;
+}
+
 .site-header-content {
   margin: 10px;
 }
