@@ -83,6 +83,9 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
@@ -94,6 +97,7 @@
 
     <div class="container-fluid p-0" style="background-color: black">
 
+    
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">Yashasvi 
@@ -104,9 +108,9 @@
             <br>
             <a href="mailto:98yashasvi@gmail.com">98yashasvi@gmail.com</a>
           </div>
-          <p class="mb-5">I am an aspiring <b> Full Stack Web Developer </b> </p>
+          <p class="para"><span class="typing"></span></p>
           <div class="subheading mb-5">
-            <a href="resume_5_3_2020.pdf">View Resume</a></div>
+            <a href="resume.pdf">View Resume</a></div>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.instagram.com/yashasvisinha/">
@@ -198,7 +202,7 @@
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">DAV Public School, Khagaul, Patna</h3>
-              <div class="subheading mb-3">AISSCE</div>
+              <div class="subheading mb-3">CBSE</div>
               <p>Percentage: 90.4%</p>
             </div>
             <div class="resume-date text-md-right">
@@ -210,8 +214,8 @@
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">DAV Public School, Khagaul, Patna</h3>
-              <div class="subheading mb-3">AISSE</div>
-              <p>GPA: 9.0</p>
+              <div class="subheading mb-3">CBSE</div>
+              <p>CGPA: 9.0</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2014</span>
@@ -220,6 +224,51 @@
 
         </div>
       </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Recipe Web Application</h3>
+              <div class="subheading mb-3">React JS Based Project</div>
+              <a href="https://checkouttherecipeapp.netlify.com/">https://checkouttherecipeapp.netlify.com/</a>
+              <p>Made a Recipe Search Application on React.JS, that fetches Recipe data from a free API - <br> 
+                <a href="https://developer.edamam.com/edamam-recipe-api">https://developer.edamam.com/edamam-recipe-api</a> source and displays on the website along with a dynamic search option.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <img src="recipeproject.png" alt="">
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Movie Website</h3>
+              <div class="subheading mb-3">Web Application Project</div>
+              <a href="https://checkoutmovies.netlify.com">https://checkoutmovies.netlify.com</a>
+              <p>Built and deployed a Movie Web Application using HTML, CSS and Vanilla JavaScript which shows the synopsis, rating, and <br>
+                 trailer sorted by latest release dates. Movie data was fetched from an API - <a href="https://api.themoviedb.org">https://api.themoviedb.org</a>.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <img src="movieapplication.png" alt="">
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Rick and Morty Character Website</h3>
+              <div class="subheading mb-3">Leisure Project 😬</div>
+              <a href="https://checkoutmovies.netlify.com">https://charactersofrickandmorty.netlify.com/</a>
+              <p>Made a website of all the famous characters of my favorite TV Show - Rick and Morty as a leisure project to practice React.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <img src="rickandmortyproject.png" alt="">
+            </div>
+          </div>
+
+          </div>
+          </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
@@ -288,8 +337,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from coding, I am a big Cricket and Football enthusiast.</p>
-          <p>I am passionate about music. My favorite genre is Electronic Dance Music (EDM). I even play Ukulele in my free time.</p>
+          <p>Apart from coding, I am a big Cricket and Football fan.</p>
+          <p>I am passionate about music. My favorite genre is Electronic Dance Music (EDM). I also play Ukulele in my free time.</p>
         </div>
       </section>
 
@@ -300,6 +349,16 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
+    <script src="jquery.2min.js"></script>
+    <script src="typed.min.js"></script>
+    <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["I am a Frontend Developer.", "I am a Machine Learning Enthusiast.", "I am an aspring Full Stack Developer.", "I play Ukulele 🎸", "I paint for fun 🎨😄"],
+      loop: true,
+      typeSpeed: 50,
+      backSpeed: 20,
+    });
+    </script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
